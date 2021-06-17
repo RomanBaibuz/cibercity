@@ -1,0 +1,138 @@
+body {
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+font-size: 14px; 
+color:rgb(248, 239, 239) 
+}
+
+*,
+*:before
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 , h6 {
+    margin: 0;
+}
+p {
+margin: 0 0 10px;
+}
+
+/* container ===========
+===================== */
+.conteiner {
+ width: 100%;
+ max-width: 1170px;
+ margin: 0 auto;
+}
+ .img {
+     height: 100px;
+     width: 100px;
+ }
+
+/* header ===========
+===================== */
+.header {
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header_inner {
+    align-items: center;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid rgba(248, 241, 241, 0.986);
+}
+
+/* nav ===========
+===================== */
+.nav {
+    font-size: 25px;
+    font-weight: 900;
+    display: flex;
+
+}
+.nav_link {
+ margin-left: 50px;   
+color: rgba(236, 227, 227, 0.986);
+text-decoration: none;
+opacity: 0.75;
+transition: opacity 0.2s linear;
+}
+
+.nav_link :first-child {
+    margin-left: 0;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+/* intro  ===========
+===================== */
+ .intro{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding-top: 200px;
+     height: 750px;
+     background: rgb(60, 60, 163)
+      url(imiges/sergey-voronov-star-city-concept.jpg);
+ }
+
+.intro_inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+ .intro_title {
+     margin: 0 0 30px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 65px;
+     color: rgb(98, 213, 221);
+     font-weight: 700;
+     line-height: 1.1;
+     text-transform: uppercase;
+     
+ }
+
+ .intro_sub {
+     font-size: 22px;
+     color: silver;
+     line-height: 1.5;
+     font-weight: 400;
+     margin-bottom: 60px;
+ }
+
+ /* button  ===========
+===================== */
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    color: white;
+    font-weight: 600px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 40px;
+    border-radius: 3px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn--red {
+    background-color: tomato;
+}
+.btn--red:hover {
+    background-color: red;
+    
+}
