@@ -83,7 +83,7 @@ transition: opacity 0.2s linear;
      padding-top: 200px;
      height: 750px;
      background: rgb(60, 60, 163)
-      url(imiges/sergey-voronov-star-city-concept.jpg);
+      url(https://raw.githubusercontent.com/RomanBaibuz/cibercity/main/sergey-voronov-star-city-concept.jpg);
  }
 
 .intro_inner {
